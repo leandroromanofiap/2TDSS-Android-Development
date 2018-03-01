@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     public void salvar(View view) {
         String nome = edtNome.getText().toString();
 
-        Toast.makeText(this, "Seu nome é: " + nome, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.seu_nome_eh) + nome, Toast.LENGTH_SHORT).show();
     }
 }

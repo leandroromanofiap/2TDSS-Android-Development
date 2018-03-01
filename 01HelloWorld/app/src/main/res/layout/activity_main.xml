@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome:" />
+        android:text="@string/label_nome" />
 
     <EditText
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salvar"
+        android:text="@string/label_salvar"
         android:onClick="salvar"/>
 
 </LinearLayout>
