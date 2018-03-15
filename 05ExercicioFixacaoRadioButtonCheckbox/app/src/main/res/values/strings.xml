@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pet Shop</string>
+    <string name="titulo_qual_cachorro">Escolha qual cachorro deseja:</string>
+    <string name="string_femea">Fêmea</string>
+    <string name="string_adestrado">Adestrado</string>
+    <string name="string_vacinas">Com todas as vacinas em dia</string>
+    <string name="string_calcular">CALCULAR</string>
+</resources>
