@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">04-RadioButton-Checkbox</string>
+    <string name="estou_aprendendo_android">estou_aprendendo</string>
+    <string name="facil">facil</string>
+    <string name="medio">medio</string>
+    <string name="dificil">dificil</string>
+    <string name="aprendendo_android" />
+</resources>
