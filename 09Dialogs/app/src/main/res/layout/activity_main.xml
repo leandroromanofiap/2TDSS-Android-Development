@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exibir Dialog"
+        android:id="@+id/btnDialog"
+        android:onClick="abrirAlertDialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProgressDialog"
+        android:text="Abrir progress dialog"
+        android:onClick="abrirProgressDialog"
+        android:layout_below="@+id/btnDialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abrir date picker dialog"
+        android:id="@+id/btnDatePickerDialog"
+        android:onClick="abrirDatePickerDialog"
+        android:layout_below="@+id/btnProgressDialog"/>
+
+</RelativeLayout>
